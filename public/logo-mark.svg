@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <clipPath id="c"><rect width="64" height="64" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <circle cx="32" cy="32" r="28" stroke="#12355B" stroke-width="3" fill="none" />
+    <!-- clock hand -->
+    <path d="M32 32 L40 28" stroke="#12355B" stroke-width="3" stroke-linecap="round" />
+    <path d="M32 32 L32 18" stroke="#12355B" stroke-width="3" stroke-linecap="round" />
+    <!-- coin stack -->
+    <g transform="translate(39,24)">
+      <ellipse cx="6" cy="4" rx="8" ry="4" fill="#7ED6A6" stroke="#6CC084" stroke-width="0.6"/>
+      <ellipse cx="6" cy="10" rx="8" ry="4" fill="#7ED6A6" stroke="#6CC084" stroke-width="0.6"/>
+      <ellipse cx="6" cy="16" rx="8" ry="4" fill="#7ED6A6" stroke="#6CC084" stroke-width="0.6"/>
+      <path d="M-2 4 L-2 18" stroke="#6CC084" stroke-width="0.6" />
+    </g>
+  </g>
+</svg>
