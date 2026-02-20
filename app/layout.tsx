@@ -1,6 +1,7 @@
 import './globals.css'
 import type { ReactNode } from 'react'
 import Header from '../components/Header'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata = {
   title: 'WorthIt',
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Header />
           <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">{children}</main>
         </div>
+        <Analytics />
       </body>
     </html>
   )
